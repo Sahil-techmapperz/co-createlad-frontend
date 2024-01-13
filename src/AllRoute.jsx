@@ -29,7 +29,6 @@ import Movinglogo from './component/Movinglogo';
 import Newslatter from './component/Newslatter';
 import Offering from './component/Offering';
 import SignUp from './component/SignUp';
-import Upcomingevents from './component/upcomingevents';
 import Whyjoin from './component/Whyjoin';
 import Changemaker from './component/Changemaker';
 import Bluerectangle from './component/Bluerectangle';
@@ -58,6 +57,7 @@ import UserSidebar from './Pages/UserDashboard/UserSidebar';
 import UserDashboard from './Pages/UserDashboard/UserDashboard';
 import EventRegistrationForm from './Pages/Event_Registration/Event_registration';
 import Knowledge from './component/knowledge';
+import Upcomingevents from './component/upcomingevents';
 // import EventRegistrationForm from './Pages/Event_Registration/Event_registration';
 
 
@@ -129,21 +129,6 @@ const AllRoute = () => {
                 <Route path='/usersidebar' element={<UserSidebar/>} />
                 <Route path='/userDash' element={<UserDashboard/>} />
                 <Route path='/eventregistration' element={<EventRegistrationForm/>} />
-               
-
-
-
-
-
-
-
-
-
-
-
-               
-
-
             </Routes>
 
         </>
