@@ -1,5 +1,9 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import MentorConnect from './Pages/MentorConnect';
+import GrantsConnect from './Pages/GrantsConnect';
+import Investorconnect from './Pages/Investorconnect';
 import Build from './component/Build';
 import Glob from './component/Glob';
 import Mentor from './component/Mentor';
@@ -18,29 +22,25 @@ import Investapply from './component/Investapply';
 import Investpitch from './component/Investpitch';
 import Testimonial from './component/Testimonial';
 import Granthero from './component/Granthero';
-import Grantlogo from './component/Grantlogo';
 import Steps from './component/Steps';
 import Services from './Pages/Services';
 import FeedbackForm from './component/FeedbackForm';
 import Gettingstarted from './component/Gettingstarted';
 import Join from './component/Join';
-
+import Knowledge from './component/knowledge';
 import Movinglogo from './component/Movinglogo';
 import Newslatter from './component/Newslatter';
 import Offering from './component/Offering';
 import SignUp from './component/SignUp';
+import Cards from './component/cards';
+import Upcomingevents from './component/upcomingevents';
 import Whyjoin from './component/Whyjoin';
 import Changemaker from './component/Changemaker';
 import Bluerectangle from './component/Bluerectangle';
 import Youtubeplay from './component/Youtubeplay';
-// import Cards from './component/cards';
 import FAQ from './component/Accordian';
 import Myacoordion from './component/Myaccordian';
 import Navbar from './component/Navbar';
-import Home from './Pages/Home';
-import MentorConnect from './Pages/MentorConnect';
-import GrantsConnect from './Pages/GrantsConnect';
-import Investorconnect from './Pages/Investorconnect';
 import Footer from './component/Footer';
 import Mentor_selection from './Pages/Mentor_Selection/Mentor_selection';
 import Registration from './Pages/Registration/Registration';
@@ -56,11 +56,6 @@ import PassWordSetup from './Pages/MobileRegistration1/PassWordSetup';
 import UserSidebar from './Pages/UserDashboard/UserSidebar';
 import UserDashboard from './Pages/UserDashboard/UserDashboard';
 import EventRegistrationForm from './Pages/Event_Registration/Event_registration';
-import Knowledge from './component/knowledge';
-import Upcomingevents from './component/upcomingevents';
-import Cards from './component/cards';
-// import EventRegistrationForm from './Pages/Event_Registration/Event_registration';
-
 
 
 
@@ -85,7 +80,6 @@ const AllRoute = () => {
                 <Route path='/mission' element={<Mission />}></Route>
                 <Route path='/credit' element={<Credit />} />
                 <Route path='/team' element={<Team />} />
-                <Route path='/mentor' element={<Mentor />} />
                 <Route path='/investhero' element={<Investhero />} />
                 <Route path='/invesorform' element={<Investorform />} />
                 <Route path='/about' element={<About />} />
@@ -94,7 +88,6 @@ const AllRoute = () => {
                 <Route path='/investpitch' element={<Investpitch />} />
                 <Route path='/testimonial' element={<Testimonial />} />
                 <Route path='/granthero' element={<Granthero />} />
-                <Route path='/grantlogo' element={<Grantlogo />} />
                 <Route path='/steps' element={<Steps />} />
                 <Route path='/services' element={<Services />} />
                 <Route path='/feedback' element={<FeedbackForm />} />
@@ -108,7 +101,7 @@ const AllRoute = () => {
                 <Route path='/cards' element={<Cards />} />
                 <Route path='/upcomingevents' element={<Upcomingevents />} />
                 <Route path='/whyjoin' element={<Whyjoin />} />
-                <Route path='/changemaker' element={<Changemaker />} />
+                <Route path='/changemaker' element={<Changemaker/>} />
                 <Route path='/bluerectangle' element={<Bluerectangle />} />
                 <Route path='/youtubeplay' element={<Youtubeplay />} />
                 <Route path='/accordian' element={<FAQ />} />
@@ -151,4 +144,4 @@ const AllRoute = () => {
     )
 }
 
-export default AllRoute;
+export default AllRoute
