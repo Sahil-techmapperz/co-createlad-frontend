@@ -33,7 +33,7 @@ import Whyjoin from './component/Whyjoin';
 import Changemaker from './component/Changemaker';
 import Bluerectangle from './component/Bluerectangle';
 import Youtubeplay from './component/Youtubeplay';
-import Cards from './component/cards';
+// import Cards from './component/cards';
 import FAQ from './component/Accordian';
 import Myacoordion from './component/Myaccordian';
 import Navbar from './component/Navbar';
@@ -58,6 +58,7 @@ import UserDashboard from './Pages/UserDashboard/UserDashboard';
 import EventRegistrationForm from './Pages/Event_Registration/Event_registration';
 import Knowledge from './component/knowledge';
 import Upcomingevents from './component/upcomingevents';
+import Cards from './component/cards';
 // import EventRegistrationForm from './Pages/Event_Registration/Event_registration';
 
 
@@ -129,10 +130,25 @@ const AllRoute = () => {
                 <Route path='/usersidebar' element={<UserSidebar/>} />
                 <Route path='/userDash' element={<UserDashboard/>} />
                 <Route path='/eventregistration' element={<EventRegistrationForm/>} />
+               
+
+
+
+
+
+
+
+
+
+
+
+               
+
+
             </Routes>
 
         </>
     )
 }
 
-export default AllRoute
+export default AllRoute;
