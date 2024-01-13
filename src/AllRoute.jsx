@@ -123,21 +123,6 @@ const AllRoute = () => {
                 <Route path='/usersidebar' element={<UserSidebar/>} />
                 <Route path='/userDash' element={<UserDashboard/>} />
                 <Route path='/eventregistration' element={<EventRegistrationForm/>} />
-               
-
-
-
-
-
-
-
-
-
-
-
-               
-
-
             </Routes>
 
         </>
