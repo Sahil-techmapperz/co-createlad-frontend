@@ -1,0 +1,29 @@
+.buildContainer{
+    background-image: url(../assets/homebannerbg.png);
+}
+
+
+.buildImage{
+    max-width: 650px;
+}
+
+
+/* .startgrowing,
+.wearewe {
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+text-transform: capitalize;
+color: #637381;
+} */
+
+
+/* .startgrowing,
+.wearewe {
+border: none;
+background-color: #0096f6;
+color: #ffffff;
+} */
